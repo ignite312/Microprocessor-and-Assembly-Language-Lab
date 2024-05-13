@@ -1,0 +1,16 @@
+	AREA MYDATA, DATA, READWRITE
+
+; Matrix A Data
+rA EQU 2
+cA EQU 3
+matA DCD 3, 2, 5, 7, 2, 3
+
+	AREA TASK, CODE, READONLY
+	ENTRY
+	EXPORT main
+
+main
+    
+
+STOP B STOP
+	END 
